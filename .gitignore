@@ -1,0 +1,21 @@
+# Obsidian gitignore
+# Source: https://github.com/github/gitignore/pull/3434 (Obsidian specific recommendations)
+
+# Obsidian-specific
+# The workspace files contain information about your current session (tab layout, cursor position, etc.)
+**/.obsidian/workspace
+**/.obsidian/workspace.json
+**/.obsidian/cache/
+**/.obsidian/plugins/obsidian-git/
+
+# Mobile specific
+**/.obsidian/appearance-mobile.json
+**/.obsidian/app-mobile.json
+
+# If you want to ignore all plugin data but keep the plugin configuration (optional, usually not recommended unless syncing via other means)
+# **/.obsidian/plugins/
+# !**/.obsidian/plugins/*.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
