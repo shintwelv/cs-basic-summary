@@ -22,4 +22,8 @@
 3. **지속적인 업데이트**: 학습한 내용을 꾸준히 보완하고 발전시킴
 
 ---
+
+## Github Pages
+https://shintwelv.github.io/cs-basic-summary/
+
 *이 리포지토리는 Obsidian을 통해 관리되고 있다.*
