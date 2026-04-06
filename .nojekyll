@@ -1,0 +1,1 @@
+# This file tells GitHub Pages not to run Jekyll, which is necessary for Docsify to work and to serve folders with dots in them.
