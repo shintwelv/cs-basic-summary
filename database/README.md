@@ -3,12 +3,51 @@
 데이터의 효율적인 저장, 관리 및 설계 원칙(SQL/NoSQL, Index, ACID 등)을 정리한 섹션입니다. 아래 카드를 통해 주요 개념을 학습하실 수 있습니다.
 
 <div class="card-grid">
-  <!-- Topics will be added here -->
   <div class="topic-card placeholder">
-    <div class="icon">🏗️</div>
+    <div class="icon">📊</div>
     <div class="card-content">
-      <h3>콘텐츠 준비 중</h3>
-      <p>데이터베이스 설계, 인덱싱 및 트랜잭션 관리와 관련한 내용이 곧 추가될 예정입니다.</p>
+      <h3>계층 및 데이터 모델</h3>
+      <p>관계형 모델의 핵심 구성 요소와 특징이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">📜</div>
+    <div class="card-content">
+      <h3>SQL (질의어)</h3>
+      <p>SELECT, JOIN 등 주요 SQL 문법과 최적화 방법이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🚀</div>
+    <div class="card-content">
+      <h3>인덱스 (Index)</h3>
+      <p>B-Tree 구조와 효율적인 검색을 위한 인덱싱 전략이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🔒</div>
+    <div class="card-content">
+      <h3>트랜잭션과 ACID</h3>
+      <p>데이터의 정규성과 일관성을 보장하는 핵심 원칙이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">📐</div>
+    <div class="card-content">
+      <h3>표준화 (Normalization)</h3>
+      <p>중복을 제거하고 구조를 최적화하는 단계별 과정이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🔄</div>
+    <div class="card-content">
+      <h3>NoSQL vs RDBMS</h3>
+      <p>비정형 데이터 처리와 분산 환경을 위한 NoSQL의 특징이 곧 추가될 예정입니다.</p>
     </div>
   </div>
 </div>

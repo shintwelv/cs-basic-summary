@@ -3,12 +3,51 @@
 네트워크 프로토콜, 계층 구조, TCP/UDP 및 보안 등 통신 전반에 관한 내용을 정리한 섹션입니다. 
 
 <div class="card-grid">
-  <!-- Topics will be added here -->
   <div class="topic-card placeholder">
     <div class="icon">🧱</div>
     <div class="card-content">
-      <h3>콘텐츠 준비 중</h3>
-      <p>네트워크 계층 및 프로토콜 관련 내용이 곧 추가될 예정입니다.</p>
+      <h3>계층 구조 (ISO 7 & TCP/IP)</h3>
+      <p>네트워크 통신의 핵심인 계층별 역할과 데이터 흐름이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🔌</div>
+    <div class="card-content">
+      <h3>TCP vs UDP</h3>
+      <p>신뢰성 있는 연결과 빠른 전송의 차이점 및 활용 분야가 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🌐</div>
+    <div class="card-content">
+      <h3>HTTP / HTTPS</h3>
+      <p>웹 브라우징의 기본 프로토콜과 보안 통신 원리가 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🏷️</div>
+    <div class="card-content">
+      <h3>DNS (도메인 네임 시스템)</h3>
+      <p>도메인 주소를 IP 주소로 변환하는 계층적 구조가 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">⚖️</div>
+    <div class="card-content">
+      <h3>로드 밸런싱</h3>
+      <p>트래픽을 효율적으로 분산시키는 기법과 장치들이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🍪</div>
+    <div class="card-content">
+      <h3>쿠키 vs 세션</h3>
+      <p>상태 비저장 프로토콜인 HTTP에서 상태를 유지하는 방법이 곧 추가될 예정입니다.</p>
     </div>
   </div>
 </div>

@@ -23,7 +23,39 @@
     <div class="icon">⏱️</div>
     <div class="card-content">
       <h3>CPU 스케줄링</h3>
-      <p>다양한 스케줄링 알고리즘(FCFS, SJF, RR 등)에 대한 내용이 추가될 예정입니다.</p>
+      <p>다양한 스케줄링 알고리즘(FCFS, SJF, RR 등)에 대한 내용이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">💀</div>
+    <div class="card-content">
+      <h3>데드락 (Deadlock)</h3>
+      <p>교착 상태의 발생 조건과 이를 해결하기 위한 예방/회피 전략이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🔄</div>
+    <div class="card-content">
+      <h3>동기화와 세마포어</h3>
+      <p>경쟁 상태를 방지하기 위한 뮤텍스, 세마포어 등의 동기화 기법이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">📂</div>
+    <div class="card-content">
+      <h3>파일 시스템</h3>
+      <p>파일의 저장 구조, 할당 방식 및 파일 관리 시스템의 원리가 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">⚡</div>
+    <div class="card-content">
+      <h3>인터럽트와 시스템 콜</h3>
+      <p>커널 모드 전환과 하드웨어 이벤트 처리 메커니즘이 곧 추가될 예정입니다.</p>
     </div>
   </div>
 </div>

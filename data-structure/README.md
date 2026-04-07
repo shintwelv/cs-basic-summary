@@ -3,12 +3,51 @@
 데이터를 효율적으로 저장하고 관리하는 방법인 스택, 큐, 트리, 그래프 등을 정리한 섹션입니다. 
 
 <div class="card-grid">
-  <!-- Topics will be added here -->
   <div class="topic-card placeholder">
-    <div class="icon">🔍</div>
+    <div class="icon">🔗</div>
     <div class="card-content">
-      <h3>콘텐츠 준비 중</h3>
-      <p>주요 자료구조의 개념과 구현에 대한 내용이 곧 추가될 예정입니다.</p>
+      <h3>배열 & 연결 리스트</h3>
+      <p>연속된 메모리와 노드 구조의 차이점 및 장단점이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">📚</div>
+    <div class="card-content">
+      <h3>스택 & 큐</h3>
+      <p>LIFO와 FIFO 구조의 원리와 활용 사례가 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🔑</div>
+    <div class="card-content">
+      <h3>해시 테이블</h3>
+      <p>키-값 쌍의 저장 원리와 충돌 해결 전략이 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🌳</div>
+    <div class="card-content">
+      <h3>트리</h3>
+      <p>이진 탐색 트리, AVL, Red-Black 트리 등 계층 구조가 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🔝</div>
+    <div class="card-content">
+      <h3>힙 & 우선순위 큐</h3>
+      <p>최댓값/최솟값을 빠르게 찾기 위한 구조가 곧 추가될 예정입니다.</p>
+    </div>
+  </div>
+
+  <div class="topic-card placeholder">
+    <div class="icon">🕸️</div>
+    <div class="card-content">
+      <h3>그래프</h3>
+      <p>정점과 간선으로 이루어진 관계 표현 및 저장 방식이 곧 추가될 예정입니다.</p>
     </div>
   </div>
 </div>
