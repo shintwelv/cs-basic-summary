@@ -9,7 +9,7 @@ This document provides essential information for AI agents contributing to or ma
 - **Web Hosting**: Real-time rendering via **Docsify** on **GitHub Pages**.
 
 ## Tech Stack & Configuration
-- **Docsify**: `index.html` acts as the entry point. It fetches `.md` files asynchronously.
+- **Docsify**: `index.html` acts as the entry point. It fetches `.md` files asynchronously. Each subdirectory should have its own `README.md` (Markdown) as a visual dashboard for its contents.
 - **Sidebar**: Manual navigation is managed in `_sidebar.md`.
 - **Styling**: Custom CSS embedded in `index.html` follows a dark, modern blue/slate theme.
 - **GitHub Pages**: Requires a `.nojekyll` file in the root to bypass Jekyll processing and serve files correctly.
@@ -33,6 +33,7 @@ When editing or creating new Markdown files, follow these rules:
 
 ## Maintenance Tasks
 - **Updating Sidebar**: When adding a new file or directory, ensure the link is added to `_sidebar.md`.
+- **Directory Index (README.md)**: When the contents of core directories (`/operating-system/`, `/network/`, `/data-structure/`, `/algorithm/`) are updated (files added/renamed), update the corresponding `README.md` index file with a visual card-style link to the new section. Use HTML within Markdown for card-based dashboards.
 - **Docsify Theme**: If styles are updated, ensure they are compatible with Docsify's internal structure (e.g., `.markdown-section`).
 - **Static Assets**: Avoid large binaries. Use externally hosted images or generated icons where possible.
 
