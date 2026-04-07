@@ -1,6 +1,8 @@
 - [Home](README.md)
 - **주요 학습 주제**
-  - [Operating System](operating-system/thread-vs-process.md)
+  - **Operating System**
+    - [프로세스 vs 스레드](operating-system/thread-vs-process.md)
+    - [메모리 관리](operating-system/memory-management.md)
   - [Network](network/)
   - [Database](database/)
   - [Data Structure](data-structure/)

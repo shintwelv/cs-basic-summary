@@ -25,11 +25,10 @@ This document provides essential information for AI agents contributing to or ma
 When editing or creating new Markdown files, follow these rules:
 
 1. **Obsidian Compatibility**: Use **Callouts** for Q&A sections.
-    - Syntax: `> [!QUESTION]` and `> [!ANSWER]`.
 2. **Technical Precision**: 
     - Always differentiate between Single-core (Time-sharing) and Multi-core (Parallelism) when discussing multitasking.
     - Include low-level details where applicable (e.g., PCB/TCB in context switches, Stack/Register/PC in thread contexts).
-3. **Language**: Use polite Korean for the content (unless requested otherwise), but internal documentation (like this file) should be in English.
+3. **Language**: Use Korean for the content (unless requested otherwise), but internal documentation (like this file) should be in English.
 4. **Markdown Formatting**: Use standard GFM (GitHub Flavored Markdown) with clear hierarchies (`#`, `##`, `###`).
 
 ## Maintenance Tasks
@@ -38,4 +37,4 @@ When editing or creating new Markdown files, follow these rules:
 - **Static Assets**: Avoid large binaries. Use externally hosted images or generated icons where possible.
 
 ---
-*Last Updated: 2026-04-06*
+*Last Updated: 2026-04-07*
