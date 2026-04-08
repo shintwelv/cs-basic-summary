@@ -19,13 +19,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/operating-system/cpu-scheduling" class="topic-card">
     <div class="icon">⏱️</div>
     <div class="card-content">
       <h3>CPU 스케줄링</h3>
-      <p>다양한 스케줄링 알고리즘(FCFS, SJF, RR 등)에 대한 내용이 곧 추가될 예정입니다.</p>
+      <p>선점과 비선점, 라운드 로빈, MLFQ 등 다양한 스케줄링 알고리즘의 원리를 다룹니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">💀</div>
