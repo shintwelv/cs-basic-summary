@@ -10,3 +10,4 @@
   - [**Data Structure**](data-structure/)
   - [**Algorithm**](algorithm/)
     - [정렬 (Sort)](algorithm/sort.md)
+    - [문제 풀이 (Problems)](algorithm/problems/)

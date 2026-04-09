@@ -1,0 +1,86 @@
+# 🧩 문제 풀이 (Problem Solving)
+
+알고리즘 문제들을 풀이하고 정리한 공간입니다.
+
+<div class="problem-grid">
+  <a href="#/algorithm/problems/baekjoon-2750-수정렬하기" class="problem-item">
+    <div class="problem-badge">Baekjoon</div>
+    <div class="problem-info">
+      <h4>2750 수 정렬하기</h4>
+      <p>입력된 수들을 Merge Sort를 활용하여 오름차순으로 정렬하는 기능을 구현했습니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>알고리즘</span>
+    </div>
+  </a>
+</div>
+
+<style>
+  .problem-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .problem-item {
+    background: var(--search-bg);
+    border: 1px solid var(--sidebar-border);
+    border-radius: 16px;
+    padding: 24px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  .problem-item:hover {
+    border-color: var(--theme-color);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  .problem-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--blockquote-bg);
+    color: var(--theme-color);
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    align-self: flex-start;
+  }
+
+  .problem-info h4 {
+    margin: 0 0 12px 0 !important;
+    font-size: 1.25rem !important;
+    color: var(--text-color);
+  }
+
+  .problem-info p {
+    margin: 0 !important;
+    font-size: 0.95rem;
+    color: var(--sidebar-text);
+    line-height: 1.5;
+  }
+
+  .problem-footer {
+    margin-top: 20px;
+    display: flex;
+    gap: 12px;
+    border-top: 1px solid var(--sidebar-border);
+    padding-top: 16px;
+  }
+
+  .problem-footer span {
+    font-size: 0.85rem;
+    color: var(--sidebar-text);
+    background: var(--code-bg);
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+</style>

@@ -52,6 +52,7 @@
   </div>
 </div>
 
+
 <style>
   .card-grid {
     display: grid;
@@ -66,7 +67,7 @@
     border-radius: 16px;
     padding: 24px;
     text-decoration: none !important;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
