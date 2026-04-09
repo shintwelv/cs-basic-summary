@@ -4,6 +4,7 @@
     - [프로세스 vs 스레드](operating-system/thread-vs-process.md)
     - [메모리 관리](operating-system/memory-management.md)
     - [CPU 스케줄링](operating-system/cpu-scheduling.md)
+    - [데드락 (Deadlock)](operating-system/deadlock.md)
   - [**Network**](network/)
   - [**Database**](database/)
   - [**Data Structure**](data-structure/)

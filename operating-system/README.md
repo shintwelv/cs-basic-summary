@@ -27,13 +27,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/operating-system/deadlock" class="topic-card">
     <div class="icon">💀</div>
     <div class="card-content">
       <h3>데드락 (Deadlock)</h3>
-      <p>교착 상태의 발생 조건과 이를 해결하기 위한 예방/회피 전략이 곧 추가될 예정입니다.</p>
+      <p>교착 상태의 발생 필수 4가지 조건과 이를 해결하기 위한 예방, 회피, 탐지, 및 복구 전략을 다룹니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">🔄</div>
