@@ -3,13 +3,13 @@
 문제 해결을 위한 효율적인 단계적 절차인 정렬, 검색, 동적 계획법 등을 정리한 섹션입니다. 
 
 <div class="card-grid">
-  <div class="topic-card placeholder">
+  <a href="#/algorithm/time-space-complexity" class="topic-card">
     <div class="icon">⏱️</div>
     <div class="card-content">
       <h3>시간 및 공간 복잡도</h3>
-      <p>Big-O 표기법과 알고리즘의 효율성 분석 기법이 곧 추가될 예정입니다.</p>
+      <p>Big-O 표기법과 알고리즘의 효율성 분석 기법을 정리했습니다.</p>
     </div>
-  </div>
+  </a>
 
   <a href="#/algorithm/sort" class="topic-card">
     <div class="icon">📊</div>
