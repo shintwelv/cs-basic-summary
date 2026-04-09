@@ -11,13 +11,13 @@
     </div>
   </div>
 
-  <div class="topic-card placeholder">
+  <a href="#/algorithm/sort" class="topic-card">
     <div class="icon">📊</div>
     <div class="card-content">
       <h3>정렬 알고리즘</h3>
-      <p>Quick, Merge, Heap Sort 등 주요 정렬 방식의 원리가 곧 추가될 예정입니다.</p>
+      <p>Quick, Merge, Heap Sort 등 주요 정렬 방식의 원리와 시간 복잡도를 정리했습니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">🔎</div>
