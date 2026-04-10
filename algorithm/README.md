@@ -19,13 +19,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/algorithm/search" class="topic-card">
     <div class="icon">🔎</div>
     <div class="card-content">
       <h3>검색 알고리즘</h3>
-      <p>이진 탐색 및 다양한 탐색 기법의 구현 방법이 곧 추가될 예정입니다.</p>
+      <p>선형 검색, 이진 검색, 해시 테이블의 원리와 장단점을 정리했습니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">💡</div>

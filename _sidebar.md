@@ -11,4 +11,5 @@
   - [**Algorithm**](algorithm/)
     - [시간 및 공간 복잡도](algorithm/time-space-complexity.md)
     - [정렬 (Sort)](algorithm/sort.md)
+    - [검색 (Search)](algorithm/search.md)
     - [문제 풀이 (Problems)](algorithm/problems/)
