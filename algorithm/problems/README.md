@@ -14,6 +14,17 @@
       <span>알고리즘</span>
     </div>
   </a>
+  <a href="#/algorithm/problems/baekjoon-1920-수 찾기" class="problem-item">
+    <div class="problem-badge">Baekjoon</div>
+    <div class="problem-info">
+      <h4>1920 수 찾기</h4>
+      <p>주어진 배열에서 이분 탐색(Binary Search)을 활용하여 특정 정수의 존재 여부를 확인합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>알고리즘</span>
+    </div>
+  </a>
 </div>
 
 <style>
