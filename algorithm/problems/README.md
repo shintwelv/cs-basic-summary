@@ -25,6 +25,17 @@
       <span>알고리즘</span>
     </div>
   </a>
+  <a href="#/algorithm/problems/baekjoon-10816-숫자카드2" class="problem-item">
+    <div class="problem-badge">Baekjoon</div>
+    <div class="problem-info">
+      <h4>10816 숫자 카드 2</h4>
+      <p>중복 원소가 포함된 정렬 배열에서 Lower/Upper Bound를 활용해 특정 숫자의 개수를 효율적으로 계산합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>이진 탐색</span>
+    </div>
+  </a>
 </div>
 
 <style>
