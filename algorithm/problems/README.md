@@ -35,6 +35,16 @@
       <span>Swift</span>
       <span>이진 탐색</span>
     </div>
+  <a href="#/algorithm/problems/baekjoon-2839-설탕배달" class="problem-item">
+    <div class="problem-badge">Baekjoon</div>
+    <div class="problem-info">
+      <h4>2839 설탕배달</h4>
+      <p>동적 계획법(DP)을 활용하여 주어진 무게를 최소 개수의 3kg, 5kg 봉지로 나누는 방법을 계산합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>DP</span>
+    </div>
   </a>
 </div>
 
