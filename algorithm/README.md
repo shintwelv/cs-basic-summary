@@ -27,13 +27,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/algorithm/dp" class="topic-card">
     <div class="icon">💡</div>
     <div class="card-content">
       <h3>동적 계획법 (DP)</h3>
-      <p>최적 부분 구조와 중복되는 부분 문제를 해결하는 방법이 곧 추가될 예정입니다.</p>
+      <p>최적 부분 구조와 중복되는 부분 문제를 해결하여 복잡한 문제를 최적화하는 기법을 정리했습니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">🎯</div>
