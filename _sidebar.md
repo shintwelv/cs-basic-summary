@@ -13,4 +13,5 @@
     - [정렬 (Sort)](algorithm/sort.md)
     - [검색 (Search)](algorithm/search.md)
     - [동적 계획법 (DP)](algorithm/dp.md)
+    - [그리디 (Greedy)](algorithm/greedy.md)
     - [문제 풀이 (Problems)](algorithm/problems/)

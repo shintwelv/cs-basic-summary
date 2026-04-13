@@ -35,13 +35,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/algorithm/greedy" class="topic-card">
     <div class="icon">🎯</div>
     <div class="card-content">
       <h3>그리디 알고리즘</h3>
-      <p>매 순간의 최선의 선택이 전체 최적해로 이어지는 원리가 곧 추가될 예정입니다.</p>
+      <p>매 순간의 최선의 선택이 전체 최적해로 이어지는 원리와 연관 문제를 정리했습니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">🕸️</div>
