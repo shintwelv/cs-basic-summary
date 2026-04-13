@@ -35,6 +35,7 @@
       <span>Swift</span>
       <span>이진 탐색</span>
     </div>
+  </a>
   <a href="#/algorithm/problems/baekjoon-2839-설탕배달" class="problem-item">
     <div class="problem-badge">Baekjoon</div>
     <div class="problem-info">
@@ -44,6 +45,18 @@
     <div class="problem-footer">
       <span>Swift</span>
       <span>DP</span>
+    </div>
+  </a>
+  <a href="#/algorithm/problems/baekjoon-11399-ATM" class="problem-item">
+    <div class="problem-badge">Baekjoon</div>
+    <div class="problem-info">
+      <h4>11399 ATM</h4>
+      <p>그리디 알고리즘을 활용하여 각 사람이 돈을 인출하는 데 필요한 대기 시간의 누적합을 최소화합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>그리디</span>
+      <span>알고리즘</span>
     </div>
   </a>
 </div>
