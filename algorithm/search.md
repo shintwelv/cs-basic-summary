@@ -65,3 +65,10 @@
 > **Q:** 재해싱의 시간 복잡도는 어떻게 되는가?
 >
 > **A:** O(n)이다.
+
+---
+
+## 4. 관련 문제
+
+- [Baekjoon 1920 - 수 찾기](problems/baekjoon-1920-수%20찾기.md)
+- [Baekjoon 10816 - 숫자카드2](problems/baekjoon-10816-숫자카드2.md)
