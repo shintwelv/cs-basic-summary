@@ -66,3 +66,4 @@
 
 - [Baekjoon 2839 - 설탕배달](problems/baekjoon-2839-설탕배달.md)
 - [Baekjoon 1149 - RGB거리](problems/baekjoon-1149-RGB거리.md)
+- [Baekjoon 1932 - 정수 삼각형](problems/baekjoon-1932-정수삼각형.md)

@@ -83,6 +83,17 @@
       <span>알고리즘</span>
     </div>
   </a>
+  <a href="#/algorithm/problems/baekjoon-1932-정수 삼각형" class="problem-item">
+    <div class="problem-badge">Baekjoon</div>
+    <div class="problem-info">
+      <h4>1932 정수 삼각형</h4>
+      <p>동적 계획법(DP)을 활용하여 삼각형의 꼭대기에서 바닥까지 내려오는 경로 중 숫자들의 합이 최대가 되는 경로를 찾습니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>DP</span>
+    </div>
+  </a>
 </div>
 
 <style>

@@ -42,4 +42,4 @@
 ## 4. 관련 문제
 
 - [Baekjoon 11399 - ATM](problems/baekjoon-11399-ATM.md)
-- [Baekjoon 1931 - 회의실 배정](problems/baekjoon-1931- 회의실 배정.md)
+- [Baekjoon 1931 - 회의실 배정](problems/baekjoon-1931- 회의실배정.md)
