@@ -71,6 +71,18 @@
       <span>알고리즘</span>
     </div>
   </a>
+  <a href="#/algorithm/problems/baekjoon-1149-RGB거리" class="problem-item">
+    <div class="problem-badge">Baekjoon</div>
+    <div class="problem-info">
+      <h4>1149 RGB거리</h4>
+      <p>동적 계획법(DP)을 활용하여 최적 부분 구조를 계산하고, 인접한 두 집의 색이 겹치지 않게 모든 집을 칠하는 최소 비용을 구합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>DP</span>
+      <span>알고리즘</span>
+    </div>
+  </a>
 </div>
 
 <style>

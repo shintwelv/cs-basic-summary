@@ -65,3 +65,4 @@
 ## 6. 관련 문제
 
 - [Baekjoon 2839 - 설탕배달](problems/baekjoon-2839-설탕배달.md)
+- [Baekjoon 1149 - RGB거리](problems/baekjoon-1149-RGB거리.md)
