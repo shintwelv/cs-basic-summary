@@ -59,6 +59,18 @@
       <span>알고리즘</span>
     </div>
   </a>
+  <a href="#/algorithm/problems/baekjoon-1931- 회의실 배정" class="problem-item">
+    <div class="problem-badge">Baekjoon</div>
+    <div class="problem-info">
+      <h4>1931 회의실 배정</h4>
+      <p>그리디 알고리즘을 활용하여 한 개의 회의실에서 시간이 겹치지 않게 최대한 많은 회의를 배정합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>그리디</span>
+      <span>알고리즘</span>
+    </div>
+  </a>
 </div>
 
 <style>
