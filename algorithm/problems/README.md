@@ -94,6 +94,18 @@
       <span>DP</span>
     </div>
   </a>
+  <a href="#/algorithm/problems/baekjoon-1753-최단경로" class="problem-item">
+    <div class="problem-badge">Baekjoon</div>
+    <div class="problem-info">
+      <h4>1753 최단경로</h4>
+      <p>다익스트라(Dijkstra) 알고리즘과 우선순위 큐(Min-Heap)를 직접 배열 구조로 구현하여 단일 출발점 최단 경로를 효율적으로 계산합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>그래프</span>
+      <span>다익스트라</span>
+    </div>
+  </a>
 </div>
 
 <style>
