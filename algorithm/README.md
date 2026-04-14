@@ -43,13 +43,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/algorithm/graph" class="topic-card">
     <div class="icon">🕸️</div>
     <div class="card-content">
       <h3>그래프 알고리즘</h3>
-      <p>DFS, BFS, 다익스트라 등 그래프 탐색 및 최단 경로 알고리즘이 곧 추가될 예정입니다.</p>
+      <p>DFS, BFS, 다익스트라, 크루스칼, 프림 등 그래프 탐색 및 최단 경로 알고리즘을 정리했습니다.</p>
     </div>
-  </div>
+  </a>
 </div>
 
 
