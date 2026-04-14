@@ -106,6 +106,18 @@
       <span>다익스트라</span>
     </div>
   </a>
+  <a href="#/algorithm/problems/baekjoon-1916-최소비용구하기" class="problem-item">
+    <div class="problem-badge">Baekjoon</div>
+    <div class="problem-info">
+      <h4>1916 최소비용 구하기</h4>
+      <p>가중치가 있는 그래프에서 두 도시 간의 최소 비용을 다익스트라 알고리즘과 FileIO 최적화를 통해 0.5초의 촉박한 시간 내에 해결합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>그래프</span>
+      <span>다익스트라</span>
+    </div>
+  </a>
 </div>
 
 <style>
