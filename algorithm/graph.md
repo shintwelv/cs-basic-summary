@@ -15,9 +15,10 @@
 ## 최단 경로 (Shortest Path)
 
 ### 다익스트라 (Dijkstra) 알고리즘
-- 자료구조: 우선순위 큐 (Priority Queue)
+- 자료구조: **[우선순위 큐 (Priority Queue)](../data-structure/heap.md)**
 - 특징: 가중치가 있는 그래프에서 특정 시작점으로부터 모든 정점까지의 최단 거리를 구함.
 - 핵심: "현재까지 확인된 가장 짧은 경로"를 가진 정점부터 확장하는 그리디(Greedy) 방식.
+- 실전 문제: **[백준 1753 최단경로](./problems/baekjoon-1753-최단경로.md)** (Swift 최소 힙 직접 구현)
 
 ## 최소 신장 트리 (MST)
 
