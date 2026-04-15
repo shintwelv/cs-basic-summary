@@ -35,13 +35,13 @@
     </div>
   </div>
 
-  <div class="topic-card placeholder">
+  <a href="#/data-structure/heap" class="topic-card">
     <div class="icon">🔝</div>
     <div class="card-content">
       <h3>힙 & 우선순위 큐</h3>
-      <p>최댓값/최솟값을 빠르게 찾기 위한 구조가 곧 추가될 예정입니다.</p>
+      <p>최댓값/최솟값을 빠르게 찾기 위한 완전 이진 트리 기반 자료구조를 정리했습니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">🕸️</div>

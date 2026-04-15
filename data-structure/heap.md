@@ -40,4 +40,8 @@
 ---
 ## 연관 문서
 - **[그래프 알고리즘: 다익스트라(Dijkstra)](../algorithm/graph.md)**: 힙 구조를 사용하여 최단 거리 탐색을 $O(E \log V)$로 최적화하는 과정을 다룬다.
-- **[문제 풀이: 백준 1753 최단경로](../algorithm/problems/baekjoon-1753-최단경로.md)**: Swift로 배열을 다루며 **Up-Heap**과 **Down-Heap(고차함수 활용)** 트리를 직접 완성해 본 코드 구현 사례이다.
+- **[정렬: 힙 정렬(Heap Sort)](../algorithm/sort.md)**: 최악의 경우에도 $O(n \log n)$을 보장하는 힙 기반 정렬 방식을 설명한다.
+- **[운영체제: CPU 스케줄링](../operating-system/cpu-scheduling.md)**: 우선순위 기반 스케줄링에서 힙 자료구조가 어떻게 활용되는지 다룬다.
+- **문제 풀이 사례**: 
+  - **[백준 1753 최단경로](../algorithm/problems/baekjoon-1753-최단경로.md)**: Swift로 **Up-Heap**과 **Down-Heap**을 직접 구현한 사례.
+  - **[백준 1916 최소비용구하기](../algorithm/problems/baekjoon-1916-최소비용구하기.md)**: 시간 제한이 촉박한 환경에서 효율적인 힙 구현의 중요성을 다룬 문제.
