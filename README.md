@@ -11,7 +11,7 @@
 - [**Operating System**](./operating-system/): 프로세스 관리, CPU 스케줄링, 메모리 관리, 데드락 등
 - [**Network**](./network/): OSI 7계층, TCP/UDP, HTTP/HTTPS, DNS 등
 - [**Database**](./database/): SQL vs NoSQL, 트랜잭션, 정규화, 인덱싱 등
-- [**Data Structure**](./data-structure/): 자료구조의 기본(Stack, Queue, Heap, Hash Table 등)
+- [**Data Structure**](./data-structure/): 자료구조의 기본(Array, Linked List, Stack, Queue, Heap, Hash Table 등)
 - [**Algorithm**](./algorithm/): 정렬, 탐색, 동적 계획법(DP), 그래프 알고리즘 등
 
 ---

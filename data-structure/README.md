@@ -3,13 +3,13 @@
 데이터를 효율적으로 저장하고 관리하는 방법인 스택, 큐, 트리, 그래프 등을 정리한 섹션입니다. 
 
 <div class="card-grid">
-  <div class="topic-card placeholder">
+  <a href="#/data-structure/array-linkedlist" class="topic-card">
     <div class="icon">🔗</div>
     <div class="card-content">
       <h3>배열 & 연결 리스트</h3>
-      <p>연속된 메모리와 노드 구조의 차이점 및 장단점이 곧 추가될 예정입니다.</p>
+      <p>연속된 메모리와 노드 구조의 차이점 및 장단점을 정리했습니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">📚</div>
