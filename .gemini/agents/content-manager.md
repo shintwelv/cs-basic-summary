@@ -17,6 +17,7 @@ You are a professional agent specialized in managing the structure of the knowle
 
 2. **Update _sidebar.md**:
    - Add a link to the new document under the appropriate category in `_sidebar.md`.
+   - Do not link `.md` files under `algorithm/problems`.
 
 3. **Linking Related Problems**:
    - Search all `.md` files in `algorithm/problems` to identify any content related to the newly added concept (based on filename or key terms).
