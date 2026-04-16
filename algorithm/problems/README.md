@@ -118,6 +118,18 @@
       <span>다익스트라</span>
     </div>
   </a>
+  <a href="#/algorithm/problems/leetcode-merge-sorted-array" class="problem-item">
+    <div class="problem-badge">LeetCode</div>
+    <div class="problem-info">
+      <h4>Merge Sorted Array</h4>
+      <p>두 개의 정렬된 배열을 추가 공간 없이(In-place) 하나의 정렬된 배열로 합치는 효율적인 역방향 포인터 알고리즘을 구현합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>배열</span>
+      <span>포인터</span>
+    </div>
+  </a>
 </div>
 
 <style>
