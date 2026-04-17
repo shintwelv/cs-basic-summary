@@ -43,5 +43,5 @@
 - **[정렬: 힙 정렬(Heap Sort)](../algorithm/sort.md)**: 최악의 경우에도 $O(n \log n)$을 보장하는 힙 기반 정렬 방식을 설명한다.
 - **[운영체제: CPU 스케줄링](../operating-system/cpu-scheduling.md)**: 우선순위 기반 스케줄링에서 힙 자료구조가 어떻게 활용되는지 다룬다.
 - **문제 풀이 사례**: 
-  - **[백준 1753 최단경로](../algorithm/problems/baekjoon-1753-최단경로.md)**: Swift로 **Up-Heap**과 **Down-Heap**을 직접 구현한 사례.
-  - **[백준 1916 최소비용구하기](../algorithm/problems/baekjoon-1916-최소비용구하기.md)**: 시간 제한이 촉박한 환경에서 효율적인 힙 구현의 중요성을 다룬 문제.
+  - **[백준 1753 최단경로](../problems/baekjoon-1753-최단경로.md)**: Swift로 **Up-Heap**과 **Down-Heap**을 직접 구현한 사례.
+  - **[백준 1916 최소비용구하기](../problems/baekjoon-1916-최소비용구하기.md)**: 시간 제한이 촉박한 환경에서 효율적인 힙 구현의 중요성을 다룬 문제.

@@ -15,7 +15,7 @@
 - **[해시 테이블 (Hash Table)](../algorithm/README.md)**: 충돌 해결 전략 중 하나인 '체이닝(Chaining)' 기법에서 **연결 리스트**가 핵심적으로 사용됩니다.
 
 ## 관련 문제 풀이
-- **[백준 10816 - 숫자 카드 2](../algorithm/problems/baekjoon-10816-숫자카드2.md)**: 정렬된 배열과 이진 탐색을 활용한 원소 개수 세기.
-- **[LeetCode - Merge Sorted Array](../algorithm/problems/leetcode-merge-sorted-array.md)**: 두 개의 정렬된 배열을 제자리(in-place)에서 병합하기.
-- **[백준 1753 - 최단경로](../algorithm/problems/baekjoon-1753-최단경로.md)**: 인접 리스트(Adjacency List) 구조를 활용한 효율적인 그래프 저장.
+- **[백준 10816 - 숫자 카드 2](../problems/baekjoon-10816-숫자카드2.md)**: 정렬된 배열과 이진 탐색을 활용한 원소 개수 세기.
+- **[LeetCode - Merge Sorted Array](../problems/leetcode-merge-sorted-array.md)**: 두 개의 정렬된 배열을 제자리(in-place)에서 병합하기.
+- **[백준 1753 - 최단경로](../problems/baekjoon-1753-최단경로.md)**: 인접 리스트(Adjacency List) 구조를 활용한 효율적인 그래프 저장.
 

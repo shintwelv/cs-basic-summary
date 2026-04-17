@@ -70,5 +70,5 @@
 
 ## 4. 관련 문제
 
-- [Baekjoon 1920 - 수 찾기](problems/baekjoon-1920-수%20찾기.md)
-- [Baekjoon 10816 - 숫자카드2](problems/baekjoon-10816-숫자카드2.md)
+- [Baekjoon 1920 - 수 찾기](../problems/baekjoon-1920-수%20찾기.md)
+- [Baekjoon 10816 - 숫자카드2](../problems/baekjoon-10816-숫자카드2.md)

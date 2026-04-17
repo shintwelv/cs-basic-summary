@@ -3,7 +3,7 @@
 알고리즘 문제들을 풀이하고 정리한 공간입니다.
 
 <div class="problem-grid">
-  <a href="#/algorithm/problems/baekjoon-2750-수정렬하기" class="problem-item">
+  <a href="#/problems/baekjoon-2750-수정렬하기" class="problem-item">
     <div class="problem-badge">Baekjoon</div>
     <div class="problem-info">
       <h4>2750 수 정렬하기</h4>
@@ -14,7 +14,7 @@
       <span>알고리즘</span>
     </div>
   </a>
-  <a href="#/algorithm/problems/baekjoon-1920-수 찾기" class="problem-item">
+  <a href="#/problems/baekjoon-1920-수 찾기" class="problem-item">
     <div class="problem-badge">Baekjoon</div>
     <div class="problem-info">
       <h4>1920 수 찾기</h4>
@@ -25,7 +25,7 @@
       <span>알고리즘</span>
     </div>
   </a>
-  <a href="#/algorithm/problems/baekjoon-10816-숫자카드2" class="problem-item">
+  <a href="#/problems/baekjoon-10816-숫자카드2" class="problem-item">
     <div class="problem-badge">Baekjoon</div>
     <div class="problem-info">
       <h4>10816 숫자 카드 2</h4>
@@ -36,7 +36,7 @@
       <span>이진 탐색</span>
     </div>
   </a>
-  <a href="#/algorithm/problems/baekjoon-2839-설탕배달" class="problem-item">
+  <a href="#/problems/baekjoon-2839-설탕배달" class="problem-item">
     <div class="problem-badge">Baekjoon</div>
     <div class="problem-info">
       <h4>2839 설탕배달</h4>
@@ -47,7 +47,7 @@
       <span>DP</span>
     </div>
   </a>
-  <a href="#/algorithm/problems/baekjoon-11399-ATM" class="problem-item">
+  <a href="#/problems/baekjoon-11399-ATM" class="problem-item">
     <div class="problem-badge">Baekjoon</div>
     <div class="problem-info">
       <h4>11399 ATM</h4>
@@ -59,7 +59,7 @@
       <span>알고리즘</span>
     </div>
   </a>
-  <a href="#/algorithm/problems/baekjoon-1931- 회의실 배정" class="problem-item">
+  <a href="#/problems/baekjoon-1931- 회의실 배정" class="problem-item">
     <div class="problem-badge">Baekjoon</div>
     <div class="problem-info">
       <h4>1931 회의실 배정</h4>
@@ -71,7 +71,7 @@
       <span>알고리즘</span>
     </div>
   </a>
-  <a href="#/algorithm/problems/baekjoon-1149-RGB거리" class="problem-item">
+  <a href="#/problems/baekjoon-1149-RGB거리" class="problem-item">
     <div class="problem-badge">Baekjoon</div>
     <div class="problem-info">
       <h4>1149 RGB거리</h4>
@@ -83,7 +83,7 @@
       <span>알고리즘</span>
     </div>
   </a>
-  <a href="#/algorithm/problems/baekjoon-1932-정수 삼각형" class="problem-item">
+  <a href="#/problems/baekjoon-1932-정수 삼각형" class="problem-item">
     <div class="problem-badge">Baekjoon</div>
     <div class="problem-info">
       <h4>1932 정수 삼각형</h4>
@@ -94,7 +94,7 @@
       <span>DP</span>
     </div>
   </a>
-  <a href="#/algorithm/problems/baekjoon-1753-최단경로" class="problem-item">
+  <a href="#/problems/baekjoon-1753-최단경로" class="problem-item">
     <div class="problem-badge">Baekjoon</div>
     <div class="problem-info">
       <h4>1753 최단경로</h4>
@@ -106,7 +106,7 @@
       <span>다익스트라</span>
     </div>
   </a>
-  <a href="#/algorithm/problems/baekjoon-1916-최소비용구하기" class="problem-item">
+  <a href="#/problems/baekjoon-1916-최소비용구하기" class="problem-item">
     <div class="problem-badge">Baekjoon</div>
     <div class="problem-info">
       <h4>1916 최소비용 구하기</h4>
@@ -118,7 +118,7 @@
       <span>다익스트라</span>
     </div>
   </a>
-  <a href="#/algorithm/problems/leetcode-merge-sorted-array" class="problem-item">
+  <a href="#/problems/leetcode-merge-sorted-array" class="problem-item">
     <div class="problem-badge">LeetCode</div>
     <div class="problem-info">
       <h4>Merge Sorted Array</h4>

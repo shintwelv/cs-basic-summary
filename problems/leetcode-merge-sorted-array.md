@@ -59,7 +59,7 @@ Can you come up with an algorithm that runs in $O(m + n)$ time?
 ### 1. 문제 분석 및 접근
 - **문제 목적**: 이미 정렬된 두 배열 `nums1`과 `nums2`를 합쳐서 하나의 정렬된 배열로 만듭니다. 결과는 `nums1`에 직접 저장해야 합니다.
 - **제약 조건**: `nums1`은 `m + n`의 길이를 가지고 있으며, 뒤쪽 `n`개의 공간은 0으로 채워져 비어 있는 상태입니다. 추가 공간 없이 `nums1` 내부에서 해결해야 합니다 ($O(1)$ 공간 복잡도).
-- **접근 방법**: 앞에서부터 비교하여 채우기 시작하면 `nums1`의 기존 원소들을 뒤로 밀어야 하는 번거로움이 발생합니다. 하지만 두 배열 모두 오름차순으로 정렬되어 있으므로, **뒤쪽(가장 큰 값)부터 비교하여 채워 넣으면** 기존 원소를 덮어쓰지 않고 효율적으로 정렬할 수 있습니다. 이는 **[배열(Array)](../../data-structure/array-linkedlist.md)**의 특성을 활용한 효율적인 데이터 처리 방식입니다.
+- **접근 방법**: 앞에서부터 비교하여 채우기 시작하면 `nums1`의 기존 원소들을 뒤로 밀어야 하는 번거로움이 발생합니다. 하지만 두 배열 모두 오름차순으로 정렬되어 있으므로, **뒤쪽(가장 큰 값)부터 비교하여 채워 넣으면** 기존 원소를 덮어쓰지 않고 효율적으로 정렬할 수 있습니다. 이는 **[배열(Array)](../data-structure/array-linkedlist.md)**의 특성을 활용한 효율적인 데이터 처리 방식입니다.
 
 ---
 
@@ -69,7 +69,7 @@ Can you come up with an algorithm that runs in $O(m + n)$ time?
     2. `nIndex`: `nums2`의 끝 (`n - 1`)을 가리키는 포인터.
     3. `index`: 합쳐질 결과물인 `nums1`의 전체 끝 (`m + n - 1`)을 가리키는 포인터.
 - `mIndex`와 `nIndex` 위치의 값을 비교하여 더 큰 값을 `index` 위치에 넣고 해당 포인터와 `index`를 감소시킵니다.
-- 이는 **[정렬(Sort)](../sort.md)** 알고리즘 중 병합 정렬(Merge Sort)의 핵심인 '병합(Merge)' 과정을 추가적인 메모리 공간 없이 수행하는 방식입니다.
+- 이는 **[정렬(Sort)](../algorithm/sort.md)** 알고리즘 중 병합 정렬(Merge Sort)의 핵심인 '병합(Merge)' 과정을 추가적인 메모리 공간 없이 수행하는 방식입니다.
 - `nums2`의 모든 원소가 `nums1`으로 옮겨질 때까지 반복합니다.
 
 ---
@@ -144,5 +144,5 @@ class Solution {
     - `nums1`의 빈 공간을 활용하여 제자리(in-place)에서 수정을 수행하므로 추가적인 배열 공간이 필요하지 않습니다.</details>
 
 ## 관련 개념
-- **[정렬 (Sort)](../sort.md)**: 이미 정렬된 두 배열을 합치는 과정은 병합 정렬(Merge Sort)의 핵심 원리입니다.
-- **[배열 (Array)](../../data-structure/array-linkedlist.md)**: In-place 수정을 위해 배열의 특성을 활용합니다.
+- **[정렬 (Sort)](../algorithm/sort.md)**: 이미 정렬된 두 배열을 합치는 과정은 병합 정렬(Merge Sort)의 핵심 원리입니다.
+- **[배열 (Array)](../data-structure/array-linkedlist.md)**: In-place 수정을 위해 배열의 특성을 활용합니다.
