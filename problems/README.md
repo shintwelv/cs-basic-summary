@@ -154,6 +154,18 @@
       <span>이진 탐색</span>
     </div>
   </a>
+  <a href="#/problems/leetcode-valid-palindrome" class="problem-item">
+    <div class="problem-badge">LeetCode</div>
+    <div class="problem-info">
+      <h4>Valid Palindrome</h4>
+      <p>문자열에서 알파벳과 숫자만 추출하여 대소문자 구분 없이 좌우 대칭(Palindrome) 여부를 효율적으로 판별합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>문자열</span>
+      <span>포인터</span>
+    </div>
+  </a>
 </div>
 
 <style>
