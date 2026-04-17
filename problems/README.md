@@ -130,6 +130,18 @@
       <span>포인터</span>
     </div>
   </a>
+  <a href="#/problems/leetcode-valid-parentheses" class="problem-item">
+    <div class="problem-badge">LeetCode</div>
+    <div class="problem-info">
+      <h4>Valid Parentheses</h4>
+      <p>스택(Stack) 자료구조를 활용하여 여는 괄호와 닫는 괄호의 짝이 올바르게 맞는지 검사하는 효율적인 괄호 유효성 검사 알고리즘을 구현합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>스택</span>
+      <span>자료구조</span>
+    </div>
+  </a>
 </div>
 
 <style>
