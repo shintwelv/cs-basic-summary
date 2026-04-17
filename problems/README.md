@@ -142,6 +142,18 @@
       <span>자료구조</span>
     </div>
   </a>
+  <a href="#/problems/leetcode-search-insert-position" class="problem-item">
+    <div class="problem-badge">LeetCode</div>
+    <div class="problem-info">
+      <h4>Search Insert Position</h4>
+      <p>정렬된 배열에서 이진 탐색을 활용하여 특정 값의 인덱스를 찾거나, 존재하지 않을 경우 삽입될 위치를 $O(\log n)$ 시간에 계산합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>배열</span>
+      <span>이진 탐색</span>
+    </div>
+  </a>
 </div>
 
 <style>
