@@ -8,7 +8,7 @@
 | :--- | :--- | :--- |
 | **최적 부분 구조** | 큰 문제의 정답이 작은 문제의 정답을 포함함 | Optimal Substructure |
 | **중복 부분 문제** | 동일한 작은 문제가 반복적으로 계산됨 | Overlapping Subproblems |
-| **Memoization** | Top-Down 방식에서 계산 결과를 저장하는 것 | 하향식 (재귀) |
+| **Memoization** | Top-Down 방식에서 계산 결과를 저장하는 것 | 하향식 (**[재귀](../data-structure/stack-queue.md)**) |
 | **Tabulation** | Bottom-Up 방식에서 테이블을 채워나가는 것 | 상향식 (반복문) |
 
 ---

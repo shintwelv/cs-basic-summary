@@ -11,13 +11,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/data-structure/stack-queue" class="topic-card">
     <div class="icon">📚</div>
     <div class="card-content">
       <h3>스택 & 큐</h3>
-      <p>LIFO와 FIFO 구조의 원리와 활용 사례가 곧 추가될 예정입니다.</p>
+      <p>LIFO와 FIFO 구조의 원리와 활용 사례를 정리했습니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">🔑</div>

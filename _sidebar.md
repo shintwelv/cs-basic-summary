@@ -9,6 +9,7 @@
   - [**Database**](database/)
   - [**Data Structure**](data-structure/)
     - [배열 & 연결 리스트](data-structure/array-linkedlist.md)
+    - [스택 & 큐](data-structure/stack-queue.md)
     - [힙 (Heap)](data-structure/heap.md)
   - [**Algorithm**](algorithm/)
     - [시간 및 공간 복잡도](algorithm/time-space-complexity.md)
