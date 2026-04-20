@@ -19,13 +19,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/data-structure/hash-table" class="topic-card">
     <div class="icon">🔑</div>
     <div class="card-content">
       <h3>해시 테이블</h3>
-      <p>키-값 쌍의 저장 원리와 충돌 해결 전략이 곧 추가될 예정입니다.</p>
+      <p>키-값 쌍의 저장 원리와 충돌 해결 전략을 정리했습니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">🌳</div>
