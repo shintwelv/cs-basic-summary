@@ -166,6 +166,17 @@
       <span>포인터</span>
     </div>
   </a>
+  <a href="#/problems/leetcode-ransom-note" class="problem-item">
+    <div class="problem-badge">LeetCode</div>
+    <div class="problem-info">
+      <h4>Ransom Note</h4>
+      <p>해시 테이블(Hash Table)을 활용하여 주어진 magazine의 문자들로 ransomNote를 구성할 수 있는지 각 문자의 빈도수를 계산하여 판별합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>해시 테이블</span>
+    </div>
+  </a>
 </div>
 
 <style>

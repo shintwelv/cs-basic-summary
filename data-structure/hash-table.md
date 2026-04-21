@@ -28,3 +28,9 @@
 - 부하율(Load Factor): 데이터가 약 70~80% 차면 성능 유지를 위해 배열 크기를 키운다.
 - 재해싱(Rehashing): 배열 크기가 변하면 해시 결과값도 변하므로, 기존 데이터를 모두 새 위치로 다시 옮겨야 한다.
 - 점진적 재해싱: 한꺼번에 옮길 때의 멈춤 현상을 막기 위해 데이터를 조금씩 나누어 이사시킨다.
+
+## 관련 문제
+
+- [LeetCode - Ransom Note](../problems/leetcode-ransom-note.md)
+- [Baekjoon 10816 - 숫자 카드 2](../problems/baekjoon-10816-숫자카드2.md)
+- [Baekjoon 1920 - 수 찾기](../problems/baekjoon-1920-수 찾기.md)
