@@ -32,3 +32,4 @@
 ## 4. 관련 문제 풀이
 - **[LeetCode - Palindrome Number](../problems/leetcode-palindrome-number.md)**: 수학적 연산과 투 포인터를 활용하여 자릿수를 처리하는 $O(\log_{10} n)$ 시간 복잡도 알고리즘입니다.
 - **[LeetCode - Ransom Note](../problems/leetcode-ransom-note.md)**: 해시 테이블을 활용하여 $O(N+M)$의 선형 시간 복잡도로 빈도수를 계산합니다.
+- **[LeetCode - Summary Ranges](../problems/leetcode-summary-ranges.md)**: 단일 순회를 통해 $O(n)$ 시간에 해결하며, 별도의 추가 저장 공간을 최소화하여 $O(1)$ 공간 복잡도를 달성합니다.

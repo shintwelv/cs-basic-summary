@@ -189,6 +189,18 @@
       <span>포인터</span>
     </div>
   </a>
+  <a href="#/problems/leetcode-summary-ranges" class="problem-item">
+    <div class="problem-badge">LeetCode</div>
+    <div class="problem-info">
+      <h4>Summary Ranges</h4>
+      <p>정렬된 고유 정수 배열에서 연속된 숫자들을 범위(Range)로 묶어 최소한의 리스트로 요약하는 효율적인 단일 순회 알고리즘을 구현합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>배열</span>
+      <span>포인터</span>
+    </div>
+  </a>
 </div>
 
 <style>

@@ -18,5 +18,6 @@
 - **[백준 10816 - 숫자 카드 2](../problems/baekjoon-10816-숫자카드2.md)**: 정렬된 배열과 이진 탐색을 활용한 원소 개수 세기.
 - **[LeetCode - Merge Sorted Array](../problems/leetcode-merge-sorted-array.md)**: 두 개의 정렬된 배열을 제자리(in-place)에서 병합하기.
 - **[LeetCode - Palindrome Number](../problems/leetcode-palindrome-number.md)**: 정수를 배열 형태로 추출하여 좌우 대칭 여부를 판별하기.
+- **[LeetCode - Summary Ranges](../problems/leetcode-summary-ranges.md)**: 정렬된 고유 정수 배열에서 연속된 숫자들을 범위(Range)로 요약하기.
 - **[백준 1753 - 최단경로](../problems/baekjoon-1753-최단경로.md)**: 인접 리스트(Adjacency List) 구조를 활용한 효율적인 그래프 저장.
 
