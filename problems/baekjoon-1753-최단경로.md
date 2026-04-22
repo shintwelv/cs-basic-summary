@@ -28,7 +28,7 @@ https://www.acmicpc.net/problem/1753
 </summary>
 
 ### 1. 문제 분석 및 접근
-- **유형**: 단일 출발점 최단 경로 (Single-Source Shortest Path), **[스택 & 큐](../data-structure/stack-queue.md)**
+- **유형**: 단일 출발점 최단 경로 (Single-Source Shortest Path), **[그래프](../data-structure/graph.md)**, **[스택 & 큐](../data-structure/stack-queue.md)**
 - **특징**: 간선의 가중치가 10 이하의 '자연수(양수)'이므로 무조건 **[다익스트라(Dijkstra) 알고리즘](../algorithm/graph.md)** 을 사용해야 한다.
 - **제한사항 파악**: 정점(V)이 20,000개, 간선(E)이 30만 개이다. 만약 최솟값을 찾기 위해 매번 전체 배열을 순회하거나 간선 목록 전체를 뒤지면 최소 $O(V \times E)$가 되어 시간 초과가 발생한다.
 - **해결 접근**: 
