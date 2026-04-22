@@ -118,3 +118,11 @@ class Solution {
 
 </details>
 
+---
+
+## 관련 문제
+- **[LeetCode - Palindrome Number](./leetcode-palindrome-number.md)**: 정수를 문자열로 변환하지 않고 수학적 연산을 통해 팰린드롬 여부를 판별하는 문제입니다.
+
+## 관련 개념
+- **투 포인터 (Two Pointers)**: 배열의 양끝에서 중심 방향으로 비교 수행
+
