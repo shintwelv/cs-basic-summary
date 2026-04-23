@@ -26,3 +26,10 @@
 > **A:** 
 > - **재귀의 문제**: $f(n-1)$과 $f(n-2)$를 호출할 때, 이미 계산했던 하위 문제들을 계속해서 중복 계산하기 때문에 시간이 기하급수적으로 늘어난다 ($O(2^n)$).
 > - **메모이제이션(Memoization)의 원리**: 한 번 계산한 값을 배열 등에 저장해 두었다가 다시 꺼내 씀으로써, 중복 계산을 없애고 시간을 선형적으로 줄여준다 ($O(n)$).
+
+---
+
+## 4. 관련 문제 풀이
+- **[LeetCode - Palindrome Number](../problems/leetcode-palindrome-number.md)**: 수학적 연산과 투 포인터를 활용하여 자릿수를 처리하는 $O(\log_{10} n)$ 시간 복잡도 알고리즘입니다.
+- **[LeetCode - Ransom Note](../problems/leetcode-ransom-note.md)**: 해시 테이블을 활용하여 $O(N+M)$의 선형 시간 복잡도로 빈도수를 계산합니다.
+- **[LeetCode - Summary Ranges](../problems/leetcode-summary-ranges.md)**: 단일 순회를 통해 $O(n)$ 시간에 해결하며, 별도의 추가 저장 공간을 최소화하여 $O(1)$ 공간 복잡도를 달성합니다.

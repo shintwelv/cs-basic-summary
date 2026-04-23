@@ -43,13 +43,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/data-structure/graph" class="topic-card">
     <div class="icon">🕸️</div>
     <div class="card-content">
       <h3>그래프</h3>
-      <p>정점과 간선으로 이루어진 관계 표현 및 저장 방식이 곧 추가될 예정입니다.</p>
+      <p>정점과 간선으로 이루어진 관계 표현 및 인접 행렬, 인접 리스트 저장 방식을 정리했습니다.</p>
     </div>
-  </div>
+  </a>
 </div>
 
 <style>

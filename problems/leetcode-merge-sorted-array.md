@@ -141,7 +141,17 @@ class Solution {
 - **시간 복잡도**: $O(m + n)$
     - 두 배열의 모든 원소를 한 번씩만 순회하며 비교하므로 원소의 총합에 비례하는 시간이 소요됩니다.
 - **공간 복잡도**: $O(1)$
-    - `nums1`의 빈 공간을 활용하여 제자리(in-place)에서 수정을 수행하므로 추가적인 배열 공간이 필요하지 않습니다.</details>
+    - `nums1`의 빈 공간을 활용하여 제자리(in-place)에서 수정을 수행하므로 추가적인 배열 공간이 필요하지 않습니다.
+
+</details>
+
+---
+
+## 관련 문제
+- **[LeetCode - Summary Ranges](./leetcode-summary-ranges.md)**: 정렬된 배열을 단일 순회하며 연속된 구간을 처리하는 유사한 배열 탐색 문제.
+- **[LeetCode - Search Insert Position](./leetcode-search-insert-position.md)**: 정렬된 배열을 활용하는 또 다른 기초 문제.
+
+---
 
 ## 관련 개념
 - **[정렬 (Sort)](../algorithm/sort.md)**: 이미 정렬된 두 배열을 합치는 과정은 병합 정렬(Merge Sort)의 핵심 원리입니다.

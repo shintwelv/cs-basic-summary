@@ -31,7 +31,7 @@ FileIO 써야한다
 </summary>
 
 ### 1. 문제 분석 및 접근
-- **유형**: 최단 경로 (Dijkstra), **[스택 & 큐](../data-structure/stack-queue.md)**
+- **유형**: 최단 경로 (Dijkstra), **[그래프](../data-structure/graph.md)**, **[스택 & 큐](../data-structure/stack-queue.md)**
 - **이유**: 가중치가 양수인 그래프에서 특정 시작점에서 도착점까지의 최소 비용을 구하는 문제.
 - **조건**: 도시 수 $N \le 1,000$, 버스 수 $M \le 100,000$. 시간 제한이 0.5초로 매우 촉박하여 효율적인 **[우선순위 큐(Heap)](../data-structure/heap.md)** (**[스택 & 큐](../data-structure/stack-queue.md)** 원리 이해) 구현과 빠른 입출력이 필수.
 ---

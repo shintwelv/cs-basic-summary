@@ -13,6 +13,7 @@
     - [해시 테이블 (Hash Table)](data-structure/hash-table.md)
     - [트리 (Tree)](data-structure/tree.md)
     - [힙 (Heap)](data-structure/heap.md)
+    - [그래프 (Graph)](data-structure/graph.md)
   - [**Algorithm**](algorithm/)
     - [시간 및 공간 복잡도](algorithm/time-space-complexity.md)
     - [정렬 (Sort)](algorithm/sort.md)
