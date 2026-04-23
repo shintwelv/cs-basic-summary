@@ -60,3 +60,4 @@
 
 - [Baekjoon 2750 - 수 정렬하기](../problems/baekjoon-2750-수정렬하기.md)
 - [LeetCode - Merge Sorted Array](../problems/leetcode-merge-sorted-array.md)
+- [LeetCode - Remove Element](../problems/leetcode-remove-element.md)

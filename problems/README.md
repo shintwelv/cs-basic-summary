@@ -177,6 +177,18 @@
       <span>해시 테이블</span>
     </div>
   </a>
+  <a href="#/problems/leetcode-remove-element" class="problem-item">
+    <div class="problem-badge">LeetCode</div>
+    <div class="problem-info">
+      <h4>Remove Element</h4>
+      <p>배열에서 특정 값을 제자리(in-place)에서 제거하고, 남은 요소들을 앞쪽으로 배치하는 효율적인 정렬 기반 알고리즘을 구현합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>배열</span>
+      <span>정렬</span>
+    </div>
+  </a>
 </div>
 
 <style>
