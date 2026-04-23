@@ -5,6 +5,7 @@
     - [메모리 관리](operating-system/memory-management.md)
     - [CPU 스케줄링](operating-system/cpu-scheduling.md)
     - [데드락 (Deadlock)](operating-system/deadlock.md)
+    - [동기화 (Mutex & Semaphore)](operating-system/synchronization.md)
   - [**Network**](network/)
   - [**Database**](database/)
   - [**Data Structure**](data-structure/)

@@ -35,13 +35,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/operating-system/synchronization" class="topic-card">
     <div class="icon">🔄</div>
     <div class="card-content">
-      <h3>동기화와 세마포어</h3>
-      <p>경쟁 상태를 방지하기 위한 뮤텍스, 세마포어 등의 동기화 기법이 곧 추가될 예정입니다.</p>
+      <h3>동기화 (Mutex & Semaphore)</h3>
+      <p>경쟁 상태를 방지하고 데이터 일관성을 유지하기 위한 뮤텍스, 세마포어 등 동기화 기법을 다룹니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">📂</div>
