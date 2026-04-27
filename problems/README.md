@@ -213,6 +213,18 @@
       <span>정렬</span>
     </div>
   </a>
+  <a href="#/problems/leetcode-maximum-depth-of-binary-tree" class="problem-item">
+    <div class="problem-badge">LeetCode</div>
+    <div class="problem-info">
+      <h4>Maximum Depth of Binary Tree</h4>
+      <p>이진 트리의 루트부터 가장 먼 리프 노드까지의 경로인 최대 깊이를 재귀적인 DFS 방식으로 계산합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>트리</span>
+      <span>DFS</span>
+    </div>
+  </a>
 </div>
 
 <style>

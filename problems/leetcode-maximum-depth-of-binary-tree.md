@@ -37,80 +37,71 @@ A binary tree's **maximum depth** is the number of nodes along the longest path 
 </summary>
 
 ### 1. 문제 분석 및 접근
-- **문제 목적**: 주어진 문자열에서 알파벳(A-Z, a-z)과 숫자(0-9)만 남기고 대소문자를 통일했을 때, 앞에서부터 읽으나 뒤에서부터 읽으나 동일한 '팰린드롬' 문자열인지 확인합니다.
-- **제약 조건**: 문자열의 길이는 최대 $2 \times 10^5$ 입니다.
-- **접근 방법**: 
-    1. **필터링**: 문자열의 각 문자를 확인하여 알파벳이나 숫자인 경우에만 소문자로 변환하여 별도의 리스트에 담습니다.
-    2. **대칭 확인**: 필터링된 리스트의 양쪽 끝에서부터 중앙으로 오면서 문자가 일치하는지 비교합니다. (투 포인터 방식의 변형)
-
+- **문제 목적**: 이진 트리의 루트 노드부터 가장 먼 리프 노드까지의 경로에 있는 노드의 개수(최대 깊이)를 계산한다.
+- **제약 조건**: 노드 개수는 0개에서 10,000개 사이이며, 빈 트리인 경우 깊이는 0이다.
+- **접근 방법**: 재귀(Recursion)를 이용한 DFS 방식을 사용한다. 왼쪽 서브트리와 오른쪽 서브트리의 최대 깊이를 각각 구한 뒤, 그 중 큰 값에 현재 노드의 깊이(1)를 더해 반환한다.
 ---
 
 ### 2. 핵심 알고리즘
-- **문자 정제**: `isAlphanumeric` 판별 로직을 사용하여 불필요한 문자를 걸러내고 모든 문자를 소문자로 표준화합니다.
-- **팰린드롬 검사**: `0`번 인덱스부터 `letters.count - 1`까지 순회하며 `i`번째 문자와 `letters.count - 1 - i`번째 문자를 비교합니다. 하나라도 일치하지 않으면 즉시 `false`를 반환합니다.
+- **DFS (Depth First Search)**: 트리의 하단까지 탐색하여 각 서브트리의 높이를 계산한다.
+- **재귀 (Recursion)**: 문제를 "현재 노드의 깊이 = 1 + max(왼쪽 자식의 깊이, 오른쪽 자식의 깊이)"라는 작은 문제로 분할하여 해결한다.
 
 ---
 
 ### 3. 상세 동작 시나리오 (Dry Run)
-- **입력**: `s = "race a car"`
-- **1단계 (필터링)**: 
-    - `r`, `a`, `c`, `e` 추출
-    - ` ` (공백) 무시
-    - `a` 추출
-    - ` ` (공백) 무시
-    - `c`, `a`, `r` 추출
-    - 정제된 결과: `["r", "a", "c", "e", "a", "c", "a", "r"]`
-- **2단계 (대칭 확인)**:
-    - `index 0 ('r')` vs `index 7 ('r')` -> 일치
-    - `index 1 ('a')` vs `index 6 ('a')` -> 일치
-    - `index 2 ('c')` vs `index 5 ('c')` -> 일치
-    - `index 3 ('e')` vs `index 4 ('a')` -> **불일치!**
-- **결과**: `false` 반환
+- **입력**: `root = [3, 9, 20, null, null, 15, 7]`
+1. `maxDepth(3)` 호출
+   - `maxDepth(9)` 호출 -> 리프 노드이므로 `1` 반환
+   - `maxDepth(20)` 호출
+     - `maxDepth(15)` 호출 -> 리프 노드이므로 `1` 반환
+     - `maxDepth(7)` 호출 -> 리프 노드이므로 `1` 반환
+     - `max(1, 1) + 1 = 2` 반환
+2. `max(1, 2) + 1 = 3` 반환
+- **결과**: `3`
 
 ---
 
 ### 4. 코드 구현 (Swift)
 
 ```swift
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public var val: Int
+ *     public var left: TreeNode?
+ *     public var right: TreeNode?
+ *     public init() { self.val = 0; self.left = nil; self.right = nil; }
+ *     public init(_ val: Int) { self.val = val; self.left = nil; self.right = nil; }
+ *     public init(_ val: Int, _ left: TreeNode?, _ right: TreeNode?) {
+ *         self.val = val
+ *         self.left = left
+ *         self.right = right
+ *     }
+ * }
+ */
 class Solution {
-    private static let numerics: [String] = "0123456789".split(separator: "").map {"\($0)"}
-    
-    private static let alphabets: [String] = "abcdefghijklmnopqrstuvwxyz".split(separator: "").map {"\($0)"}
-    
-    private static let alphanumerics: [String] = [
-        Solution.numerics,
-        Solution.alphabets
-    ].flatMap {$0}
-    
-    func isPalindrome(_ s: String) -> Bool {
-        let letters: [String] = s.split(separator: "").compactMap { Solution.alphanumerics.contains("\($0)".lowercased()) ? "\($0)".lowercased() : nil }
-
-        for i in 0..<letters.count {
-            if letters[i] != letters[letters.count - 1 - i] {
-                return false
-            }
-        }
+    func maxDepth(_ root: TreeNode?) -> Int {
+        // Base case: 빈 노드인 경우 깊이는 0
+        guard let root = root else { return 0 }
         
-        return true
+        // 하위 노드가 없는 리프 노드인 경우 깊이는 1 (최적화를 위해 추가 가능)
+        if root.left == nil && root.right == nil { return 1 }
+        
+        // 왼쪽과 오른쪽 서브트리 중 더 깊은 쪽을 선택하고 현재 노드(+1)를 더함
+        return max(maxDepth(root.left), maxDepth(root.right)) + 1
     }
 }
 ```
 
 ### 5. 복잡도 분석
-- **시간 복잡도**: $O(N)$
-    - 문자열 전체를 한 번 순회하여 Alphanumeric 문자를 가려내는 데 $O(N)$이 걸립니다.
-    - 추출된 문자들이 팰린드롬인지 확인하기 위해 최대 $N$번 비교하므로 $O(N)$입니다.
-- **공간 복잡도**: $O(N)$
-    - 필터링된 문자들을 저장하기 위해 원본 문자열 길이에 비례하는 추가적인 배열(`letters`)을 생성합니다.
+- **시간 복잡도**: `O(N)`, 트리의 모든 노드를 정확히 한 번씩 방문한다.
+- **공간 복잡도**: `O(H)`, 트리의 높이(`H`)만큼 재귀 호출 스택이 쌓인다. 최악의 경우(편향 트리) `O(N)`, 균형 잡힌 트리의 경우 `O(log N)`이다.
 
 </details>
 
 ---
 
-## 관련 문제
-- **[LeetCode - Palindrome Number](./leetcode-palindrome-number.md)**: 정수를 문자열로 변환하지 않고 수학적 연산을 통해 팰린드롬 여부를 판별하는 문제입니다.
-- **[LeetCode - Summary Ranges](./leetcode-summary-ranges.md)**: 정렬된 배열을 한 번의 순회로 처리하는 효율적인 배열 탐색 문제입니다.
-
 ## 관련 개념
-- **투 포인터 (Two Pointers)**: 배열의 양끝에서 중심 방향으로 비교 수행
+- [이진 트리 (Binary Tree)](../data-structure/tree.md)
+- [깊이 우선 탐색 (DFS)](../algorithm/graph.md)
 

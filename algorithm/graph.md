@@ -13,6 +13,7 @@
 - 자료구조: **[스택 (Stack, LIFO)](../data-structure/stack-queue.md)** 또는 재귀 호출
 - 특징: 한 길을 끝까지 파고든 후 막히면 되돌아옴 (백트래킹).
 - 주요 용도: 모든 경로 탐색, 그래프의 사이클 확인, 연결 요소 찾기.
+- 실전 문제: **[LeetCode - Maximum Depth of Binary Tree](../problems/leetcode-maximum-depth-of-binary-tree.md)** (트리에서의 DFS)
 
 ## 최단 경로 (Shortest Path)
 

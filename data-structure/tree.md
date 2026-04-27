@@ -73,5 +73,6 @@
 ---
 
 ## 관련 문제
+- [LeetCode - Maximum Depth of Binary Tree](../problems/leetcode-maximum-depth-of-binary-tree.md)
 - [LeetCode - Search Insert Position](../problems/leetcode-search-insert-position.md) (BST의 원리를 배열에 적용한 사례)
 - [LeetCode - Valid Parentheses](../problems/leetcode-valid-parentheses.md) (트리 구조의 유효성을 검사할 때 스택이 쓰이는 이유)
