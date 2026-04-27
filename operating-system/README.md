@@ -43,13 +43,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/operating-system/file-system" class="topic-card">
     <div class="icon">📂</div>
     <div class="card-content">
       <h3>파일 시스템</h3>
-      <p>파일의 저장 구조, 할당 방식 및 파일 관리 시스템의 원리가 곧 추가될 예정입니다.</p>
+      <p>아이노드(Inode) 구조, 공간 관리 기법 및 저널링을 통한 데이터 신뢰성 확보 방식을 다룹니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">⚡</div>

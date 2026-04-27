@@ -6,6 +6,7 @@
     - [CPU 스케줄링](operating-system/cpu-scheduling.md)
     - [데드락 (Deadlock)](operating-system/deadlock.md)
     - [동기화 (Mutex & Semaphore)](operating-system/synchronization.md)
+    - [파일 시스템](operating-system/file-system.md)
   - [**Network**](network/)
   - [**Database**](database/)
   - [**Data Structure**](data-structure/)
