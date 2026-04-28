@@ -62,6 +62,7 @@ If all assertions pass, then your solution will be accepted.
 </summary>
 
 ### 1. 문제 분석 및 접근
+- **유형**: **[배열](../data-structure/array-linkedlist.md)**, **투 포인터 (Two Pointers)**, **[시간 및 공간 복잡도](../algorithm/time-space-complexity.md)**
 - **정렬된 배열**: 입력 배열 `nums`가 이미 오름차순으로 정렬되어 있다는 점이 핵심입니다.
 - **인접한 중복**: 정렬된 상태에서는 중복된 숫자들이 항상 서로 이웃하게 배치됩니다.
 - **In-place 수정**: 추가적인 배열을 생성하지 않고(O(1) Space), 주어진 배열 `nums`를 직접 수정하여 고유한 값들을 앞쪽으로 몰아야 합니다.
@@ -159,6 +160,12 @@ class Solution {
 ---
 
 ## 관련 문제
+- [LeetCode - Remove Element](leetcode-remove-element.md)
+- [LeetCode - Merge Sorted Array](leetcode-merge-sorted-array.md)
+- [LeetCode - Valid Palindrome](leetcode-valid-palindrome.md): 투 포인터 기법을 활용한 대칭 확인 문제.
+- [LeetCode - Palindrome Number](leetcode-palindrome-number.md): 수학적 연산과 투 포인터 개념을 활용한 숫자 대칭 판별 문제.
 
 ## 관련 개념
+- [배열 & 연결 리스트](../data-structure/array-linkedlist.md)
+- [시간 및 공간 복잡도](../algorithm/time-space-complexity.md)
 

@@ -213,6 +213,18 @@
       <span>정렬</span>
     </div>
   </a>
+  <a href="#/problems/leetcode-Remove-Duplicates-from-Sorted-Array" class="problem-item">
+    <div class="problem-badge">LeetCode</div>
+    <div class="problem-info">
+      <h4>Remove Duplicates from Sorted Array</h4>
+      <p>정렬된 배열에서 중복된 요소를 제자리(in-place)에서 제거하여 각 요소가 한 번만 나타나도록 하고, 고유한 요소의 개수를 반환하는 투 포인터 알고리즘을 구현합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>배열</span>
+      <span>포인터</span>
+    </div>
+  </a>
   <a href="#/problems/leetcode-maximum-depth-of-binary-tree" class="problem-item">
     <div class="problem-badge">LeetCode</div>
     <div class="problem-info">

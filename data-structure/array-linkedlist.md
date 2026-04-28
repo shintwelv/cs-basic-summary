@@ -19,6 +19,7 @@
 - **[LeetCode - Merge Sorted Array](../problems/leetcode-merge-sorted-array.md)**: 두 개의 정렬된 배열을 제자리(in-place)에서 병합하기.
 - **[LeetCode - Palindrome Number](../problems/leetcode-palindrome-number.md)**: 정수를 배열 형태로 추출하여 좌우 대칭 여부를 판별하기.
 - **[LeetCode - Summary Ranges](../problems/leetcode-summary-ranges.md)**: 정렬된 고유 정수 배열에서 연속된 숫자들을 범위(Range)로 요약하기.
-- **[LeetCode - Remove Element](../problems/leetcode-remove-element.md)**: 배열에서 특정 요소를 제자리(in-place)에서 제거하기.
-- **[백준 1753 - 최단경로](../problems/baekjoon-1753-최단경로.md)**: 인접 리스트(Adjacency List) 구조를 활용한 효율적인 그래프 저장.
+- [LeetCode - Remove Element](../problems/leetcode-remove-element.md): 배열에서 특정 요소를 제자리(in-place)에서 제거하기.
+- [LeetCode - Remove Duplicates from Sorted Array](../problems/leetcode-Remove-Duplicates-from-Sorted-Array.md): 정렬된 배열에서 중복 요소를 제자리(in-place)에서 제거하기.
+- [백준 1753 - 최단경로](../problems/baekjoon-1753-최단경로.md): 인접 리스트(Adjacency List) 구조를 활용한 효율적인 그래프 저장.
 
