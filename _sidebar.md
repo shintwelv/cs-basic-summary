@@ -7,6 +7,7 @@
     - [데드락 (Deadlock)](operating-system/deadlock.md)
     - [동기화 (Mutex & Semaphore)](operating-system/synchronization.md)
     - [파일 시스템](operating-system/file-system.md)
+    - [인터럽트와 시스템 콜](operating-system/interrupt-system-call.md)
   - [**Network**](network/)
   - [**Database**](database/)
   - [**Data Structure**](data-structure/)

@@ -51,13 +51,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/operating-system/interrupt-system-call" class="topic-card">
     <div class="icon">⚡</div>
     <div class="card-content">
       <h3>인터럽트와 시스템 콜</h3>
-      <p>커널 모드 전환과 하드웨어 이벤트 처리 메커니즘이 곧 추가될 예정입니다.</p>
+      <p>커널 모드 전환과 하드웨어 이벤트 처리 메커니즘, 그리고 사용자 프로그램의 OS 서비스 요청 방식을 다룹니다.</p>
     </div>
-  </div>
+  </a>
 </div>
 
 <style>
