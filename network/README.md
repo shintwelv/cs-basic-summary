@@ -3,7 +3,7 @@
 네트워크 프로토콜, 계층 구조, TCP/UDP 및 보안 등 통신 전반에 관한 내용을 정리한 섹션입니다. 
 
 <div class="card-grid">
-  <a href="layer.md" class="topic-card">
+  <a href="#/network/layer" class="topic-card">
     <div class="icon">🧱</div>
     <div class="card-content">
       <h3>계층 구조 (OSI 7 & TCP/IP)</h3>
