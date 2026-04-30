@@ -3,13 +3,13 @@
 네트워크 프로토콜, 계층 구조, TCP/UDP 및 보안 등 통신 전반에 관한 내용을 정리한 섹션입니다. 
 
 <div class="card-grid">
-  <div class="topic-card placeholder">
+  <a href="layer.md" class="topic-card">
     <div class="icon">🧱</div>
     <div class="card-content">
-      <h3>계층 구조 (ISO 7 & TCP/IP)</h3>
-      <p>네트워크 통신의 핵심인 계층별 역할과 데이터 흐름이 곧 추가될 예정입니다.</p>
+      <h3>계층 구조 (OSI 7 & TCP/IP)</h3>
+      <p>네트워크 통신의 핵심인 OSI 7계층별 역할과 캡슐화/역캡슐화의 원리를 정리합니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">🔌</div>
