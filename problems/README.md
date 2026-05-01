@@ -237,6 +237,18 @@
       <span>DFS</span>
     </div>
   </a>
+  <a href="#/problems/leetcode-add-binary" class="problem-item">
+    <div class="problem-badge">LeetCode</div>
+    <div class="problem-info">
+      <h4>Add Binary</h4>
+      <p>두 이진수 문자열을 입력받아, 초등 수학의 세로셈 방식과 유사하게 각 자릿수를 더하고 올림수를 처리하여 합계를 이진수 문자열로 반환합니다.</p>
+    </div>
+    <div class="problem-footer">
+      <span>Swift</span>
+      <span>수학</span>
+      <span>문자열</span>
+    </div>
+  </a>
 </div>
 
 <style>

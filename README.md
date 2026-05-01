@@ -13,6 +13,7 @@
 - [**Database**](./database/): SQL vs NoSQL, 트랜잭션, 정규화, 인덱싱 등
 - [**Data Structure**](./data-structure/): 자료구조의 기본(Array, Linked List, Stack, Queue, Heap, Hash Table 등)
 - [**Algorithm**](./algorithm/): 정렬, 탐색, 동적 계획법(DP), 그래프 알고리즘 등
+- [**Problem Solving**](./problems/): 다양한 알고리즘 문제 풀이 및 해설 (예: Add Binary, Merge Sorted Array 등)
 
 ---
 

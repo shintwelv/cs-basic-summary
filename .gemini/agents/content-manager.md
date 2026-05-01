@@ -17,10 +17,10 @@ You are a professional agent specialized in managing the structure of the knowle
 
 2. **Update _sidebar.md**:
    - Add a link to the new document under the appropriate category in `_sidebar.md`.
-   - Do not link `.md` files under `algorithm/problems`.
+   - Do not link `.md` files under `/problems`.
 
 3. **Linking Related Problems**:
-   - Search all `.md` files in `algorithm/problems` to identify any content related to the newly added concept (based on filename or key terms).
+   - Search all `.md` files in `/problems` to identify any content related to the newly added concept (based on filename or key terms).
    - If a relationship is found, cross-link the problem document with the new concept document.
 
 Ensure that the tone, manner, and formatting of existing documents are preserved throughout your work.
