@@ -19,7 +19,8 @@ This document provides essential information for AI agents contributing to or ma
 - `/network/`: Networking protocols (OSI, TCP/UDP, HTTP).
 - `/database/`: DB design and performance (SQL/NoSQL, Index, ACID).
 - `/data-structure/`: Logical data arrangements (Stack, Queue, Tree).
-- `/algorithm/`: Problem-solving patterns (Sort, Search, DP).
+- `/algorithm/`: Algorithm problem-solving patterns (Sort, Search, DP).
+- `/problems/`: BOJ, LeetCode problem solutions.
 
 ## Content Guidelines
 When editing or creating new Markdown files, follow these rules:
