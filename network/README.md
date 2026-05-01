@@ -11,13 +11,13 @@
     </div>
   </a>
 
-  <div class="topic-card placeholder">
+  <a href="#/network/tcp-vs-udp" class="topic-card">
     <div class="icon">🔌</div>
     <div class="card-content">
       <h3>TCP vs UDP</h3>
-      <p>신뢰성 있는 연결과 빠른 전송의 차이점 및 활용 분야가 곧 추가될 예정입니다.</p>
+      <p>신뢰성 있는 연결과 빠른 전송의 차이점 및 활용 분야를 정리합니다.</p>
     </div>
-  </div>
+  </a>
 
   <div class="topic-card placeholder">
     <div class="icon">🌐</div>
